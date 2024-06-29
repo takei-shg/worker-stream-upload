@@ -6,7 +6,9 @@
     "check": "biome check --write"
   },
   "dependencies": {
-    "hono": "^4.4.8"
+    "@hono/zod-validator": "^0.2.2",
+    "hono": "^4.4.8",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.2",
